@@ -12,9 +12,7 @@ under predefined conditions at a specific point in time (maturity).
 In the simplest example, the payoff can be calculated by comparing a single-period fixed rate ($K$) with a single floating rate ($F$):
 
 - **Payer Swaption Payoff**  
-  $
-  \text{Payoff} = N \times \tau \times \max(F - K, 0)
-  $
+  ${Payoff} = N \times \tau \times \max(F - K, 0)$
   - $N$: Notional
   - $\tau$: Year fraction for the period (e.g., 0.5 = 6 months)
   - $F$: Floating rate (Forward rate)
